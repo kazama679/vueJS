@@ -27,8 +27,9 @@ import Baiss6 from './components/baitap/Baiss6.vue'
     <Bai7/>
     <Bai8/> -->
     <!-- <Bai9/> -->
-    <Bai10/>
-    <Baiss6/>
+    <!-- <Bai10/>
+    <Baiss6/> -->
+    
   </div>
 </template>
 
