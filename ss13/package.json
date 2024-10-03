@@ -9,7 +9,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@vuelidate/core": "^2.0.3",
+    "@vuelidate/validators": "^2.0.4",
     "vue": "^3.4.29",
+    "vue-icons": "^2.0.0",
     "vuetify": "^3.7.2"
   },
   "devDependencies": {
