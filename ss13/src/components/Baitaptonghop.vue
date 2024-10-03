@@ -151,7 +151,8 @@
       </main>
     </div>
 
-    <FormAdd v-if="statusForm"></FormAdd>
+    <!-- Form thêm mới nhân viên -->
+    <FormAdd v-if="statusForm" @onClose="handleCloseForm"></FormAdd>
 
     <!-- Modal xác nhận chặn tài khoản -->
     <div class="overlay" hidden>
@@ -198,7 +199,12 @@ const statusForm = ref(false)
 const handleShowForm =()=>{
     statusForm.value=true
 }
+
+// đóng form
+const handleCloseForm = () => {
+    statusForm.value = false;
+};
 </script>
-  
+
 <style>
 </style>

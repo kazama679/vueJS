@@ -5,7 +5,7 @@
       <form class="form">
         <div class="d-flex justify-content-between align-items-center">
           <h4>Chỉnh sửa nhân viên</h4>
-          <i class="fa-solid fa-xmark"></i>
+          <i @click="handleClose" class="fa-solid fa-xmark"></i>
         </div>
         <div>
           <label class="form-label" for="userName">Họ và tên</label>
@@ -37,6 +37,11 @@
 </template>
   
 <script setup>
+const emit = defineEmits(["onClose"]);
+
+const handleClose = () => {
+  emit("onClose");
+};
 </script>
   
 <style>
