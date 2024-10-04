@@ -25,6 +25,12 @@ import Product8 from "@/views/baitap/bai8/Product.vue";
 import Account from "@/views/baitap/bai8/Account.vue";
 import Dashboard from "@/views/baitap/bai8/Dashboard.vue";
 
+import Bai9 from "@/views/baitap/bai9/ListUser.vue";
+import bai9Detail from "@/views/baitap/bai9/UserDetail.vue";
+
+import Register from "@/views/baitap/bai11/Register.vue";
+import Login from "@/views/baitap/bai11/Login.vue";
+
 import { createRouter, createWebHistory } from "vue-router";
 
 // Định nghĩa các route
@@ -151,6 +157,26 @@ const routes = [
                 component: Dashboard
             }
         ]
+    },
+    {
+        path: '/bai9',
+        name: 'bai9',
+        component: Bai9,
+    },
+    {
+        path: '/bai9/:id',
+        name: 'bai9Detail',
+        component: bai9Detail,
+    },
+    {
+        path: '/login',
+        name: 'login',
+        component: Login,
+    },
+    {
+        path: '/register',
+        name: 'register',
+        component: Register,
     }
 ]
 
