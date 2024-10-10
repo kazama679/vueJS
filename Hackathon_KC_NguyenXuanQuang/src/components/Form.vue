@@ -78,7 +78,6 @@ const err4 = ref(false);
 const err5 = ref(false);
 
 const emit = defineEmits(["onClose", "onAddProduct"]);
-const nameInput = ref(null);
 
 const handleClose = () => {
   emit("onClose");
@@ -128,6 +127,8 @@ const handleSubmit = () => {
     handleClose();
   }
 };
+
+const nameInput = ref(null);
 
 onMounted(() => {
     nameInput.value.focus();
