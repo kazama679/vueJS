@@ -1,22 +1,136 @@
 {
+  "students": [
+    {
+      "id": 2,
+      "name": "Quang2111111",
+      "email": "quan1111g2@gmail.com",
+      "address": "Hà Nội1111",
+      "phone": "034919912313",
+      "status": true,
+      "created_at": "10/10/2024"
+    },
+    {
+      "id": 3,
+      "name": "Quang32",
+      "email": "quang3@gmail.com",
+      "address": "Hà Nội",
+      "phone": "0349199812",
+      "status": true,
+      "created_at": "10/10/2024"
+    }
+  ],
   "products": [
     {
-      "name": "222",
-      "price": "0222",
-      "quantity": "0222",
-      "id": 9
+      "id": 1,
+      "name": "Cam",
+      "price": 10000,
+      "quantity": 10,
+      "description": "Ngon và ngọt"
     },
     {
-      "name": "12",
-      "price": "012",
-      "quantity": "012",
-      "id": 10
+      "id": 2,
+      "name": "Táo",
+      "price": 12000,
+      "quantity": 15,
+      "description": "Giòn và tươi"
     },
     {
-      "name": "1121",
-      "price": "00212",
-      "quantity": "012",
-      "id": 11
+      "name": "Xoài non",
+      "price": 15000,
+      "quantity": 22,
+      "description": "Chín vàng, mềm",
+      "id": 4
+    },
+    {
+      "id": 5,
+      "name": "Nho",
+      "price": 20000,
+      "quantity": 12,
+      "description": "Nho ngọt, không hạt"
+    },
+    {
+      "id": 6,
+      "name": "Xoài",
+      "price": 18000,
+      "quantity": 8,
+      "description": "Chín, ngọt đậm"
+    },
+    {
+      "id": 7,
+      "name": "Bưởi",
+      "price": 25000,
+      "quantity": 5,
+      "description": "Bưởi hồng ngọt"
+    },
+    {
+      "id": 8,
+      "name": "Dứa",
+      "price": 9000,
+      "quantity": 10,
+      "description": "Ngọt và thơm"
+    },
+    {
+      "id": 11,
+      "name": "Chanh",
+      "price": 6000,
+      "quantity": 25,
+      "description": "Tươi, có vị chua"
+    },
+    {
+      "id": 13,
+      "name": "Lựu",
+      "price": 16000,
+      "quantity": 6,
+      "description": "Ngọt và nhiều hạt"
+    },
+    {
+      "id": 14,
+      "name": "Dừa",
+      "price": 12000,
+      "quantity": 14,
+      "description": "Nước ngọt, mát"
+    },
+    {
+      "id": 15,
+      "name": "Kiwi",
+      "price": 22000,
+      "quantity": 8,
+      "description": "Chua ngọt, bổ dưỡng"
+    },
+    {
+      "id": 17,
+      "name": "Na",
+      "price": 17000,
+      "quantity": 10,
+      "description": "Chín mềm, thơm"
+    },
+    {
+      "id": 18,
+      "name": "Mãng cầu",
+      "price": 18000,
+      "quantity": 7,
+      "description": "Ngọt và nhiều dinh dưỡng"
+    },
+    {
+      "id": 19,
+      "name": "Quýt",
+      "price": 13000,
+      "quantity": 20,
+      "description": "Ngọt dịu, dễ ăn"
+    },
+    {
+      "id": 20,
+      "name": "Việt quất",
+      "price": 25000,
+      "quantity": 9,
+      "description": "Chua ngọt, giàu dinh dưỡng"
+    },
+    {
+      "name": "Xoài xanh",
+      "price": 22000,
+      "quantity": 22,
+      "description": "Hơi khô",
+      "id": 21
     }
   ]
 }
